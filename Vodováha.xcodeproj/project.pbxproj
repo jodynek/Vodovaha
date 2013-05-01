@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92BC752716F1FA8D00EB97D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC752616F1FA8D00EB97D9 /* UIKit.framework */; };
+		92BC752916F1FA8D00EB97D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC752816F1FA8D00EB97D9 /* Foundation.framework */; };
+		92BC752B16F1FA8D00EB97D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC752A16F1FA8D00EB97D9 /* CoreGraphics.framework */; };
+		92BC753116F1FA8D00EB97D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92BC752F16F1FA8D00EB97D9 /* InfoPlist.strings */; };
+		92BC753316F1FA8D00EB97D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC753216F1FA8D00EB97D9 /* main.m */; };
+		92BC753716F1FA8D00EB97D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC753616F1FA8D00EB97D9 /* AppDelegate.m */; };
+		92BC753916F1FA8D00EB97D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC753816F1FA8D00EB97D9 /* Default.png */; };
+		92BC753B16F1FA8D00EB97D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC753A16F1FA8D00EB97D9 /* Default@2x.png */; };
+		92BC753D16F1FA8D00EB97D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC753C16F1FA8D00EB97D9 /* Default-568h@2x.png */; };
+		92BC754016F1FA8D00EB97D9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92BC753E16F1FA8D00EB97D9 /* MainStoryboard.storyboard */; };
+		92BC754316F1FA8D00EB97D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BC754216F1FA8D00EB97D9 /* ViewController.m */; };
+		92BC754E16F1FD2D00EB97D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC754D16F1FD2D00EB97D9 /* Default-568h@2x.png */; };
+		92BC755216F1FE9400EB97D9 /* vodovaha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BC755116F1FE9400EB97D9 /* vodovaha@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92BC752316F1FA8D00EB97D9 /* Vodováha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vodováha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BC752616F1FA8D00EB97D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92BC752816F1FA8D00EB97D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92BC752A16F1FA8D00EB97D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92BC752E16F1FA8D00EB97D9 /* Vodováha-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vodováha-Info.plist"; sourceTree = "<group>"; };
+		92BC753016F1FA8D00EB97D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92BC753216F1FA8D00EB97D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92BC753416F1FA8D00EB97D9 /* Vodováha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vodováha-Prefix.pch"; sourceTree = "<group>"; };
+		92BC753516F1FA8D00EB97D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92BC753616F1FA8D00EB97D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92BC753816F1FA8D00EB97D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		92BC753A16F1FA8D00EB97D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		92BC753C16F1FA8D00EB97D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92BC753F16F1FA8D00EB97D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		92BC754116F1FA8D00EB97D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92BC754216F1FA8D00EB97D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92BC754D16F1FD2D00EB97D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92BC755116F1FE9400EB97D9 /* vodovaha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vodovaha@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92BC752016F1FA8D00EB97D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC752716F1FA8D00EB97D9 /* UIKit.framework in Frameworks */,
+				92BC752916F1FA8D00EB97D9 /* Foundation.framework in Frameworks */,
+				92BC752B16F1FA8D00EB97D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92BC751A16F1FA8D00EB97D9 = {
+			isa = PBXGroup;
+			children = (
+				92BC754D16F1FD2D00EB97D9 /* Default-568h@2x.png */,
+				92BC752C16F1FA8D00EB97D9 /* Vodováha */,
+				92BC752516F1FA8D00EB97D9 /* Frameworks */,
+				92BC752416F1FA8D00EB97D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92BC752416F1FA8D00EB97D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92BC752316F1FA8D00EB97D9 /* Vodováha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92BC752516F1FA8D00EB97D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92BC752616F1FA8D00EB97D9 /* UIKit.framework */,
+				92BC752816F1FA8D00EB97D9 /* Foundation.framework */,
+				92BC752A16F1FA8D00EB97D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92BC752C16F1FA8D00EB97D9 /* Vodováha */ = {
+			isa = PBXGroup;
+			children = (
+				92BC753516F1FA8D00EB97D9 /* AppDelegate.h */,
+				92BC753616F1FA8D00EB97D9 /* AppDelegate.m */,
+				92BC753E16F1FA8D00EB97D9 /* MainStoryboard.storyboard */,
+				92BC754116F1FA8D00EB97D9 /* ViewController.h */,
+				92BC754216F1FA8D00EB97D9 /* ViewController.m */,
+				92BC752D16F1FA8D00EB97D9 /* Supporting Files */,
+			);
+			path = "Vodováha";
+			sourceTree = "<group>";
+		};
+		92BC752D16F1FA8D00EB97D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92BC755116F1FE9400EB97D9 /* vodovaha@2x.png */,
+				92BC752E16F1FA8D00EB97D9 /* Vodováha-Info.plist */,
+				92BC752F16F1FA8D00EB97D9 /* InfoPlist.strings */,
+				92BC753216F1FA8D00EB97D9 /* main.m */,
+				92BC753416F1FA8D00EB97D9 /* Vodováha-Prefix.pch */,
+				92BC753816F1FA8D00EB97D9 /* Default.png */,
+				92BC753A16F1FA8D00EB97D9 /* Default@2x.png */,
+				92BC753C16F1FA8D00EB97D9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92BC752216F1FA8D00EB97D9 /* Vodováha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92BC754616F1FA8D00EB97D9 /* Build configuration list for PBXNativeTarget "Vodováha" */;
+			buildPhases = (
+				92BC751F16F1FA8D00EB97D9 /* Sources */,
+				92BC752016F1FA8D00EB97D9 /* Frameworks */,
+				92BC752116F1FA8D00EB97D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vodováha";
+			productName = "Vodováha";
+			productReference = 92BC752316F1FA8D00EB97D9 /* Vodováha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92BC751B16F1FA8D00EB97D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Jodynek;
+			};
+			buildConfigurationList = 92BC751E16F1FA8D00EB97D9 /* Build configuration list for PBXProject "Vodováha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92BC751A16F1FA8D00EB97D9;
+			productRefGroup = 92BC752416F1FA8D00EB97D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92BC752216F1FA8D00EB97D9 /* Vodováha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92BC752116F1FA8D00EB97D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC753116F1FA8D00EB97D9 /* InfoPlist.strings in Resources */,
+				92BC753916F1FA8D00EB97D9 /* Default.png in Resources */,
+				92BC753B16F1FA8D00EB97D9 /* Default@2x.png in Resources */,
+				92BC753D16F1FA8D00EB97D9 /* Default-568h@2x.png in Resources */,
+				92BC754016F1FA8D00EB97D9 /* MainStoryboard.storyboard in Resources */,
+				92BC754E16F1FD2D00EB97D9 /* Default-568h@2x.png in Resources */,
+				92BC755216F1FE9400EB97D9 /* vodovaha@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92BC751F16F1FA8D00EB97D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BC753316F1FA8D00EB97D9 /* main.m in Sources */,
+				92BC753716F1FA8D00EB97D9 /* AppDelegate.m in Sources */,
+				92BC754316F1FA8D00EB97D9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92BC752F16F1FA8D00EB97D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BC753016F1FA8D00EB97D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92BC753E16F1FA8D00EB97D9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BC753F16F1FA8D00EB97D9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92BC754416F1FA8D00EB97D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92BC754516F1FA8D00EB97D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92BC754716F1FA8D00EB97D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vodováha/Vodováha-Prefix.pch";
+				INFOPLIST_FILE = "Vodováha/Vodováha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92BC754816F1FA8D00EB97D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vodováha/Vodováha-Prefix.pch";
+				INFOPLIST_FILE = "Vodováha/Vodováha-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92BC751E16F1FA8D00EB97D9 /* Build configuration list for PBXProject "Vodováha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BC754416F1FA8D00EB97D9 /* Debug */,
+				92BC754516F1FA8D00EB97D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92BC754616F1FA8D00EB97D9 /* Build configuration list for PBXNativeTarget "Vodováha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92BC754716F1FA8D00EB97D9 /* Debug */,
+				92BC754816F1FA8D00EB97D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92BC751B16F1FA8D00EB97D9 /* Project object */;
+}
